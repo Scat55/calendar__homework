@@ -1,0 +1,2 @@
+ moment().updateLocale('en', { week: { dow: 1 } });
+ moment().startOf('month').startOf('week')  
