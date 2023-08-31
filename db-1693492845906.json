@@ -1,0 +1,16 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Go to walk",
+      "description": "No descr",
+      "date": 1693492147
+    },
+    {
+      "id": 2,
+      "title": "Go to walk",
+      "description": "No descr",
+      "date": 1693492309
+    }
+  ]
+}

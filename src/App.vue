@@ -3,7 +3,7 @@
     <div class="shadow__box">
       <Title />
       <Header class="header" :title="toDay" />
-      <Calendar :calendar="calendar" />
+      <Calendar :calendar="calendar" :isWeek="isWeek" />
     </div>
   </div>
 </template>
@@ -26,6 +26,7 @@ export default {
       endDay: null,
       day: null,
       toDay: moment(),
+      isWeek: true,
     };
   },
 
